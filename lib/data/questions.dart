@@ -52,4 +52,51 @@ const questions = [
       'By calling updateState()',
     ],
   ),
+
+  // NEW QUESTIONS ADDED BELOW
+  QuizQuestion(
+    'Which programming language is used to write Flutter apps?',
+    [
+      'Dart',
+      'Java',
+      'Kotlin',
+      'Swift',
+    ],
+  ),
+  QuizQuestion(
+    'What is the name of the function that runs first in a Flutter app?',
+    [
+      'main()',
+      'runApp()',
+      'initState()',
+      'build()',
+    ],
+  ),
+  QuizQuestion(
+    'Which widget is used to lay out children in a vertical direction?',
+    [
+      'Column',
+      'Row',
+      'Stack',
+      'Container',
+    ],
+  ),
+  QuizQuestion(
+    'What does the build() method return?',
+    [
+      'A widget',
+      'A function',
+      'A list',
+      'Nothing',
+    ],
+  ),
+  QuizQuestion(
+    'Which widget is used to make UI elements scrollable?',
+    [
+      'SingleChildScrollView',
+      'ListView',
+      'Scrollable',
+      'ScrollWidget',
+    ],
+  ),
 ];
